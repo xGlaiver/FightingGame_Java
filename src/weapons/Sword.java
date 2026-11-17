@@ -1,4 +1,5 @@
-public class Spada implements Arma {
+package weapons;
+public class Sword implements Weapon {
 
     public String getNome() {
         return "Spada";

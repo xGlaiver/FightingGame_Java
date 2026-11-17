@@ -1,6 +1,6 @@
 package weapons;
 
-public class BastoneMagico implements Arma {
+public class MagicStaff implements Weapon {
 
     public String getNome() {
         return "Bastone Magico";

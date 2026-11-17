@@ -1,6 +1,6 @@
 package weapons;
 
-public interface Arma {
+public interface Weapon {
 
     String getNome();
 

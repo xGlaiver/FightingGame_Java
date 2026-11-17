@@ -1,4 +1,5 @@
-public class Arco implements Arma {
+package weapons;
+public class Bow implements Weapon {
 
     public String getNome() {
         return "Arco";
