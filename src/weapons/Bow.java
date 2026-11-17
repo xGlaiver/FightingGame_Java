@@ -1,11 +1,11 @@
 package weapons;
 public class Bow implements Weapon {
 
-    public String getNome() {
+    public String getName() {
         return "Arco";
     }
 
-    public int getDanno() {
+    public int getDamage() {
         return 15;
     }
 }

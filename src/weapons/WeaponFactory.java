@@ -5,15 +5,15 @@ public class WeaponFactory {
 
     public static Weapon createWeapon(String type) {
 
-        if (type.equalsIgnoreCase("sword")) {
+        if (type.equalsIgnoreCase("Spada")) {
             return new Sword();
         }
 
-        if (type.equalsIgnoreCase("bow")) {
+        if (type.equalsIgnoreCase("Arco")) {
             return new Bow();
         }
 
-        if (type.equalsIgnoreCase("magicstaff")) {
+        if (type.equalsIgnoreCase("Bastone Magico")) {
             return new MagicStaff();
         }
 

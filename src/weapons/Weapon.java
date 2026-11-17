@@ -2,8 +2,8 @@ package weapons;
 
 public interface Weapon {
 
-    String getNome();
+    String getName();
 
-    int getDanno();
+    int getDamage();
     
 }

@@ -1,11 +1,11 @@
 package weapons;
 public class Sword implements Weapon {
 
-    public String getNome() {
+    public String getName() {
         return "Spada";
     }
 
-    public int getDanno() {
+    public int getDamage() {
         return 20;
     }
 }
