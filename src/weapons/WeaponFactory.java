@@ -16,7 +16,8 @@ public class WeaponFactory {
         if (type.equalsIgnoreCase("Bastone Magico")) {
             return new MagicStaff();
         }
-
+        
+        System.out.println("Arma non valida");
         return null;
     }
 }
