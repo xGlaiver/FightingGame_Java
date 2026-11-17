@@ -42,6 +42,6 @@ public class Player {
     public boolean isAlive() {
         return getLifePoint() > 0;
     }
-
+    //Ciao
 
 }
