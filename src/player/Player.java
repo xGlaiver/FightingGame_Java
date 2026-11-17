@@ -38,7 +38,7 @@ public class Player {
     }
 
     public double attack() {
-        double damage = this.strategy.attack(this.weapon.getDanno());
+        double damage = this.strategy.attack(this.weapon.getDamage());
         notifyObservers(damage);
         return damage;
     }
