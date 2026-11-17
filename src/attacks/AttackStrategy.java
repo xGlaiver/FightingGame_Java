@@ -1,5 +1,6 @@
 package attacks;
 
-public class AttackStrategy {
-    
+public interface AttackStrategy {
+    public String getName();
+    public double attack(double baseDamage);
 }
